@@ -1,0 +1,6 @@
+spring:
+    datasource:
+        url: jdbc:h2:mem:reactive;MODE=MySQL;INIT=CREATE SCHEMA IF NOT EXISTS reactive
+    jpa:
+        hibernate:
+            ddl-auto: create-drop
